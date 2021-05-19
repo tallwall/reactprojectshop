@@ -1,0 +1,45 @@
+:root{
+    --fill: #fff;
+
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none; 
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.btn--fill {
+    background-color: var(--fill);
+    color: #242424;
+    border: 1px solid var(--fill);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--fill);
+    transition: all 0.3s ease-out; 
+}
+
+.btn--reg{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--big{
+    padding: 12px 25px;
+    font-size: 20px;
+}
+
+.btn-red:hover, .btn--big:hover {
+    background: #fff;
+    color: #242424;
+    transition:all 0.3s ease-out; 
+    ;
+}
