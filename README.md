@@ -1,6 +1,19 @@
 # Getting Started with Create React App
 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to Use
+
+Start project using npm start. You may then live search any move by title.
+Select on a Movie to be added. 
+On Click, alert will show saying you have sucessfully added
+
+## Improvement
+Have nomination button get list of all selected items without duplicates and 
+    a. export to text file to see list 
+    b. get shareable link to share with others what movies you have nominated.
+
+Add and remove and clear all funct
 
 ## Available Scripts
 
